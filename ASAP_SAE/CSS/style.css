@@ -1,5 +1,12 @@
+@font-face {
+    font-family: 'Eras Bold ITC';
+    src: local('Eras Bold ITC'), url('chemin/vers/votre-police.woff') format('woff');
+    font-weight: bold;
+  }
+
 body {
     font-family: Arial, sans-serif;
+    font-size: 20px;
 }
 
 .menu { 
@@ -8,7 +15,7 @@ body {
 
 
 .Acceuil {
-    background: url('../BackASAP.png') center/cover no-repeat fixed;
+    background: url('../BackASAPsans.png') center/cover no-repeat fixed;
 }
 
 header {
@@ -42,3 +49,50 @@ nav a:hover {
     background-color: grey;
 }
 
+.flex-container {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 2%;
+}
+
+.text-left, .text-right, .text-below, .top-song {
+    width: 60%;
+}
+
+.top-song {
+    margin-top: -9%; 
+    margin-left: 3%;
+}
+
+.top-song ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.top-song p {
+    margin-top: 5px; 
+}
+
+
+.quote {
+    margin-left: 20%;
+    font-family: 'Eras Bold ITC', sans-serif;
+    font-size: 40px
+}
+
+
+.ASAP {
+    margin-top: 1%;
+    margin-left: 115%;
+    font-family: 'Eras Bold ITC', sans-serif;
+    font-size: 110px
+}
+
+.ROCKY {
+    font-family: 'Eras Bold ITC', sans-serif;
+    font-size: 110px; 
+    margin-left: -10%;
+    margin-top: 14%;
+    -webkit-text-stroke: 2px black; 
+    color: transparent;
+  }
