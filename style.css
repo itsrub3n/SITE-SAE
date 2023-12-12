@@ -54,7 +54,7 @@ nav a:hover {
 }
 
 .Acceuil {
-    background: url('../BackASAPsans.png') center/cover no-repeat fixed;
+    background: url('BackASAPsans.png') center/cover no-repeat fixed;
 }
 
 .flex-container {
