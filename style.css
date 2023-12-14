@@ -44,14 +44,14 @@ nav a:hover {
     background-color: grey;
 }
 
+.logo {
+    margin-right: 47%;
+}
+
 
 
 /*##########################  CSS Acceuil  ##########################*/
 
-
-.logo {
-    margin-right: 47%;
-}
 
 .Acceuil {
     background: url('BackASAPsans.png') center/cover no-repeat fixed;
@@ -103,10 +103,14 @@ nav a:hover {
     color: transparent;
   }
 
+
+
   
   /*###################################*/
 
 
+  /*######## Discographie ##########*/
+  
   .Discographie {
     background: url('BackASAP2.png') center/cover no-repeat fixed;
   }
@@ -115,7 +119,7 @@ nav a:hover {
 
 
 
-  
+
  /*###################################*/
 
 
