@@ -103,12 +103,34 @@ nav a:hover {
     color: transparent;
   }
 
+  
+  /*###################################*/
 
 
+  .Discographie {
+    background: url('../Image/BackASAP2.png') center/cover no-repeat fixed;
+  }
 
 
 
 
 
   
-  /*###################################*/
+ /*###################################*/
+
+
+
+
+ /*######## Discographie ##########*/
+
+
+  .Biographie {
+    background: url('../Image/BackASAP2.png') center/cover no-repeat fixed;
+  }
+
+
+
+
+
+
+ /*###################################*/
